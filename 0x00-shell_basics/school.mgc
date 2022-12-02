@@ -1,2 +1,2 @@
 #!/bin/bash
-file -m school.mgc [got]
+0	string	\xab\xcd\xef	School data file
