@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 | LC_COLLATE=C sed 's/^\./&\//' | sort -k1.1,1.2n | sed 's/\(.*\)/"\1",/' | sed '$ s/.$/\n/'
