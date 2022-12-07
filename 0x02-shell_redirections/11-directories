@@ -1,2 +1,2 @@
 #!/bin/bash
-numDirs=$(ls -p | grep -v /$ | grep / | wc -l)
+find . -mindepth 1 -type d | wc -l
