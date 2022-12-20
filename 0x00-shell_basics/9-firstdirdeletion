@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alh --hide='*'
+ls -lA
